@@ -82,4 +82,16 @@ public class CustomerServiceImpl implements CustomerService {
 		
 	}
 
+	@Override
+	public List<Order> orders(Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Order> orderHistory(Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

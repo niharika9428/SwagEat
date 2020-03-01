@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.swageat.dos.Order;
 import com.swageat.dos.User;
 
 @Service

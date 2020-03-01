@@ -3,11 +3,13 @@ package com.swageat.services.impl;
 import java.util.List;
 
 import com.swageat.constants.Status;
+import com.swageat.dos.Order;
 import com.swageat.dos.Rating;
 import com.swageat.dos.User;
+import com.swageat.services.UserOrderService;
 import com.swageat.services.UserService;
 
-public class ValetServiceImpl implements UserService{
+public class ValetServiceImpl implements UserService,UserOrderService{
 	
 	
 	public int getTopRating(Long userId) {
@@ -59,4 +61,15 @@ public class ValetServiceImpl implements UserService{
 		
 	}
 
+	@Override
+	public List<Order> orders(Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Order> orderHistory(Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
